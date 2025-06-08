@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-6 text-primary border-b-2 border-primary pb-2 inline-block;
+}
