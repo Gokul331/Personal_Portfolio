@@ -24,7 +24,7 @@ export default function Projects() {
       title: "Ticket Booking System",
       technologies: "PEGA",
       description:
-        "Designed and implemented a low-code workflow automation system for end-to-end ticket booking management using PEGA. The solution automated reservation, payment processing, and confirmation workflows, reducing manual effort by 40% and improving processing time by 30%.`",
+        "Designed and implemented a low-code workflow automation system for end-to-end ticket booking management using PEGA. The solution automated reservation, payment processing, and confirmation workflows, reducing manual effort by 40% and improving processing time by 30%.",
     },
     {
       title: "IoT-Based Smart Irrigation System",

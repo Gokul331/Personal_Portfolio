@@ -10,10 +10,10 @@ export default function Header({ darkMode, setDarkMode }) {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           className={`text-2xl font-bold ${
-            darkMode ? "text-gray-100" : "text-gray-700"
-          }`}
+            darkMode ? "text-gray-100 bg-gray-700" : "text-gray-700 bg-gray-400"
+          }  p-3 rounded-full`}
         >
-          GOKUL P
+          GP
         </h1>
         <div className="flex items-center space-x-6">
           <nav className="hidden md:flex space-x-8">
@@ -35,7 +35,7 @@ export default function Header({ darkMode, setDarkMode }) {
           </nav>
           <div className="flex items-center space-x-4">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/gokul-palanisamy-422b6b363/"
               target="_blank"
               rel="noopener noreferrer"
               className={`hover:text-primary ${
@@ -45,7 +45,7 @@ export default function Header({ darkMode, setDarkMode }) {
               <FaLinkedin size={20} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Gokul331"
               target="_blank"
               rel="noopener noreferrer"
               className={`hover:text-primary ${

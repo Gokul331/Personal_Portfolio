@@ -1,6 +1,8 @@
 import { useState } from "react";
 import AnimatedSection from "./AnimatedSection";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";  
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -142,7 +144,7 @@ const Contact = () => {
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
                     <svg
-                      className="w-6 h-6 text-blue-600 dark:text-blue-400"
+                      className="w-6 h-6 text-blue-400"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -156,12 +158,57 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <p className="text-gray-600 dark:text-gray-400">Phone</p>
+                    <p className=" text-gray-400">Phone</p>
                     <a
                       href="tel:+918778635855"
-                      className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition"
+                      className="text-white  hover:text-blue-400 transition"
                     >
                       +91 87786 35855
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <FaLinkedin size={20} className="text-blue-400" />
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-gray-600 dark:text-gray-400">LinkedIn</p>
+                    <a
+                      href="https://www.linkedin.com/in/gokul-palanisamy-422b6b363/"
+                      target="_blank"
+                      className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition"
+                    >
+                      https://www.linkedin.com/in/gokul-palanisamy-422b6b363/
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <FaGithub size={20} className="text-blue-400" />
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-gray-600 dark:text-gray-400">Github</p>
+                    <a
+                      href="https://github.com/Gokul331"
+                      target="_blank"
+                      className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition"
+                    >
+                      https://github.com/Gokul331
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <SiLeetcode size={20} className="text-blue-400" />
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-gray-600 dark:text-gray-400">LeetCode</p>
+                    <a
+                      href="https://leetcode.com/u/Gokul0331/"
+                      target="_blank"
+                      className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition"
+                    >
+                      https://leetcode.com/u/Gokul0331/
                     </a>
                   </div>
                 </div>
