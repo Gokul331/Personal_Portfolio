@@ -9,13 +9,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   
-  // useEffect(() => {
-    
-  
-  // }, [darkMode]);
- 
   return (
     <div
       className={`min-h-screen ${darkMode ? "bg-gray-900 text-white" : "bg-gray-200 text-gray-900"
