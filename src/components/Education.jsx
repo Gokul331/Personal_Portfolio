@@ -37,7 +37,7 @@ export default function Education() {
   };
 
   return (
-    <section id="education" className="py-16 my-5">
+    <section id="education" className="py-24">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}

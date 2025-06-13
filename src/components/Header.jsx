@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaSun, FaMoon } from "react-icons/fa";
 export default function Header({ darkMode, setDarkMode }) {
   return (
     <header
-      className={`shadow-md sticky ${
+      className={`shadow-md sticky h-24 ${
         darkMode ? "bg-gray-800 text-gray-100" : "bg-gray-200 text-gray-900"
       } top-0 z-50 transition duration-400`}
     >
